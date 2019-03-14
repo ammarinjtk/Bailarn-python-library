@@ -1,0 +1,2 @@
+Deletebuilt-inApp.ในSamsungGalaxyTabSที่ใช้งานอยู่เพราะMemoryใกล้เต็ม
+SamsungGalaxyTabSใช้งานอยู่ปัจจุบัน  DeviceMemoryใกล้เต็มจึงต้องการDeletebuilt-inApp.ที่ไม่ได้ใช้งานเพื่อเรียกเพิ่มMemoryคำถาม0.สามารถDeletebuilt-inApp.ได้หรือไม่?0.ถ้าลบได้และไม่ส่งผลกระทบทำการลบอย่างไร?0.ถ้าลบไม่ได้สามารถเลือกDisablebuilt-inApp.ที่ไม่ได้ใช้งานได้หรือไม่ขอขอบคุณล่วงหน้าครับ

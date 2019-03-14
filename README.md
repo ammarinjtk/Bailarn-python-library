@@ -46,7 +46,7 @@ You could ues all instant models easily by its function. The models will be init
 
 Additionally, other examples can be shown in `{task}_introduction.ipynb`
 
-## Performance on instant models
+## Performance on instant models on BEST2010_I2R test set
 
 - **Tokenization**: f1-score 98.58%
 - **Named Entity Recognition**: f1-macro 62.10%, f1-micro 79.59%

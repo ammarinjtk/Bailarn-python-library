@@ -9,7 +9,7 @@ For more information please see the publication "A Comparative Study on Various 
 - **Named Entity Recognition**: Predict Named entity of each words in a sentence.
 - **Part-of-Speech Tagging**: Predict Part-of-Speech of each words in a sentence.
 - **Sentiment Analysis**: Predict the Sentiment of a document including Positive, Neutral and Negative sentiment.
-- **Text Categorization**: Predict the pre-defined classes of sentences on the specific domain.
+- **Text Categorization**: Predict the pre-defined classes of sentences on the specific domain (Multi-label classification).
 - **Keyword Expansion**: Find the related words from the vocabulary to the query word.
 
 ## Short introduction for instant models
@@ -46,13 +46,15 @@ You could ues all instant models easily by its function. The models will be init
 
 Additionally, other examples can be shown in `{task}_introduction.ipynb`
 
-## Performance on instant models on BEST2010_I2R test set
+## Performance of instant models
+
+Tokenization, Named Entity Recognition, and Part-of-Speech Tagging tasks were evaluated on BEST2010_I2R test set which was the commercial versoin of BEST corpus from NECTEC. However, the model performaces of Sentiment Analysis and Text Categorization (multi-label) were not reported
 
 - **Tokenization**: f1-score 98.58%
 - **Named Entity Recognition**: f1-macro 62.10%, f1-micro 79.59%
 - **Part-of-Speech Tagging**: f1-macro 82.41%, f1-micro 95.48%
-- **Sentiment Analysis**: f1-macro 87.47%, f1-micro 87.60%
-- **Text Categorization**: f1-macro 10.73%, f1-micro 16.24%
+- **Sentiment Analysis**: N/A
+- **Text Categorization**: N/A
 
 ## Installation for instant models
 
@@ -80,8 +82,8 @@ This project is licensed under the GNU LESSER GENERAL PUBLIC License
 
 ## Acknownledgement
 
-- This project is advised by Assistant Prof. Dr.Peerapon Vateekul, Department of Computer Engineering, Faculty of Engineering, Chulalongkorn University
-- The BEST corpus is supported by Thailand's National Electronics and Computer Technology Center (also see https://www.nectec.or.th/en/)
+- This project was advised by Assistant Prof. Dr.Peerapon Vateekul, Department of Computer Engineering, Faculty of Engineering, Chulalongkorn University
+- The BEST corpus used in this project was supported by Thailand's National Electronics and Computer Technology Center (also see https://www.nectec.or.th/en/)
 
 ## References
 
